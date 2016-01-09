@@ -1,0 +1,428 @@
+.firstname {
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #e6998d;
+	height: 50px;
+}
+
+.lastname {
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #5c565e;
+	height: 50px;
+}
+
+.pushy{
+	background: #605a66; 
+	opacity: 0.8;
+	color: #d6cfe6;
+    padding: 100px 100px 150px;
+}
+
+section h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
+	color: #fcdfa9;
+}
+
+.hi{
+	text-align: center;
+	margin-left: 800px;
+}
+
+.profile{
+	text-align: center;
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+	padding-top: 50px;
+	color: #d6cfe6;
+}
+
+
+#aboutmebox{
+	width:850px;
+	background-color: #e6998d;
+	opacity: 0.8;
+	height: 550px;
+    padding: 200px 400px 200px 200px;
+    border: 5px;
+    margin: 20px 150px 15px 20px;
+    display: inline-flex;
+	float:left;
+/*	border: 1px solid red;
+*/}
+
+section div h2{
+	font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+    color: #fcdfa9;
+
+}
+
+
+/*#aboutme{
+    width: 1000px;
+    border: 1px solid black;
+    overflow: hidden;
+	background-color: #ffffff;
+	padding: 50px;
+    border: 5px;
+    margin: 20px 15px 15px 20px;
+
+}*/
+
+.amfirstpar{
+	margin: 20px 15px 15px 100px;
+	font-family: 'Bitter', serif;
+	width:700px;
+	height:550px;
+/*	border: 1px solid black;*/
+	float: left;
+	display: inline-block;
+	font-size: 25px;
+	text-align: justify;
+}
+
+#education{
+	margin: 20px 15px 15px 1500px;
+	background-color: #FFFFFF;
+	float: left;
+	/*border: 1px solid black;*/
+	font-family: 'Open Sans', sans-serif;
+	font-color: black;
+}
+
+
+.img-circle{
+	height: 200px;
+	width: 300px;
+	border: 2px solid black;
+}
+
+#utoronto{
+	margin: 25px 15px 15px 250px;
+	font: 30px;
+	float: left;
+	border: 1px red;
+}
+
+.leftuni{
+	text-align: center;
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+}
+
+.leftdegree{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: inherit;
+}
+
+#queensuniversity{
+	margin: 25px 15px 15px 250px;
+	font: 30px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+.centeruni{
+	text-align: center;
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+}
+
+.centerdegree{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: inherit;
+
+}
+
+#manu{
+	margin: 25px 15px 15px 250px;
+	font: 30px;
+	float: left;
+	border: 1px red;
+}
+
+.rightuni{
+	text-align: center;
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+}
+
+.rightdegree{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: inherit;
+}
+
+.academicproject{
+	text-align: none; 
+/*	border: 1px solid black;
+*/	font-family: 'Open Sans', sans-serif;
+	margin: 25px 15px 15px 25px;
+}
+
+.img-thumbnail{
+	width: 250px;
+	height: 250px;	
+}
+
+#magazine{
+	float: left;
+	width: 300px;
+	height: 500px;
+	padding: 30px;
+	border: 1px solid black;
+	margin: 25px 15px 15px 150px;
+}
+
+
+/*SKILL-BAR SETTING*/
+/*.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:25%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}*/
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:130px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.bpmnmagazineskill{
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 150px;
+	position:relative;
+	display:inline-block;
+	margin-bottom:15px;
+	width:25%;
+	background:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+
+}
+
+.erdmagazineskill{
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 5px;
+	position:relative;
+	display:inline-block;
+	right:500px;
+	top: 115px;
+	margin-bottom:15px;
+	width:25%;
+	background:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+
+}
+
+.classmagazineskill{
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 5px;
+	position:relative;
+	display:inline-block;
+	margin-bottom:15px;
+	width:25%;
+	right:466px;
+	background:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+
+
+
+}
+
+
+/*START OF ESCAPE GAME PROJECT*/
+#escapegame{
+	position: relative;
+    bottom: 200px;
+    left: 430px;
+	float: left;
+	width: 300px;
+	height: 500px;
+	display: inline-block;
+	padding: 30px;
+	border: 1px solid black;
+	margin: 25px 15px 15px 150px;
+}
+
+
+.analysis{
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 5px;
+	position:relative;
+	display:inline-block;
+	margin-bottom:15px;
+	width:25%;
+	top: -5px;
+	left:425px;
+	background:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.requirementsgathering{
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 5px;
+	position:relative;
+	display:inline-block;
+	margin-bottom:15px;
+	width:25%;
+	top: -5px;
+	left:425px;
+	background:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.relationaldatabase{
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 5px;
+	position:relative;
+	display:inline-block;
+	margin-bottom:15px;
+	width:25%;
+	top: -5px;
+	left:425px;
+	background:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
